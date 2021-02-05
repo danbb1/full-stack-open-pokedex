@@ -33,3 +33,4 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "safe-lake-06875"
           heroku_email: "danielbridges@protonmail.com"
+          remote_branch: master
