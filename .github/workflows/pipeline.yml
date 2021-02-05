@@ -36,3 +36,4 @@ jobs:
           remote_branch: master
           healthcheck: "https://safe-lake-06875.herokuapp.com/health"
           checkstring: "ok"
+          rollbackonhealthcheckfailed: true
